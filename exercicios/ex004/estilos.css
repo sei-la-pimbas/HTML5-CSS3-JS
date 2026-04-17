@@ -1,0 +1,17 @@
+@charset "UTF-8"; 
+/*regra @charset caso haja probremas com acentuação*/
+
+h1 {
+    color:#304241;
+    font-size:200px ;
+
+}
+body{
+    background-color:#3D9E96 ;
+}
+p{
+    color: #304241;
+    font-size: 100px;
+}
+/*Colocar uma cor * /
+}
