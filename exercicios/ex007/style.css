@@ -1,0 +1,12 @@
+#secao {
+    width: 500px;
+    height: 200px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+#caixa {
+    width: 100%;
+    padding: 30px;
+    border: 10px solid red;
+    box-sizing: border-box;
+}
