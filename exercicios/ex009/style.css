@@ -18,6 +18,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -64,10 +65,17 @@ nav a:hover{
 
 main{
     margin: auto;
-    width: 80%;
+
+    max-width: 800px;
+    min-width: 320px;
+
     background-color: azure;
 
     padding: 50px;
+}
+
+main p{
+    line-height: 1.4;
 }
 
 main article h1{
@@ -84,3 +92,53 @@ main article h2{
 
     border-radius: 25px;
 }
+
+img{
+    width: 100%;
+}
+
+aside {
+    margin-top: 10px;
+    background-color: #CCFAFF;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5 ease;
+}
+
+aside:hover {
+    box-shadow: 2px 2px 3px 5px black;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: var(--cor_footer);
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    padding-top: 30px;
+}
+
+#icon-git{
+    display: inline-block;
+    height: 30px;
+    width: auto;
+    transform: transform 0.5 ease;
+}
+
+#icon-git:hover{
+    transform: scale(1.2);
+}
+
+footer p{
+    margin-bottom: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #155F67;
+}
+
