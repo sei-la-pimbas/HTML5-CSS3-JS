@@ -4,7 +4,10 @@ function verificarIdade(){
 
     const idadeNum = Number(idade)
 
-    if (idadeNum <= 5 ){
+    if (idadeNum < 0){
+        alert("vc errou")
+    }
+    else if (idadeNum <= 5 ){
         img.src = "bebe vesgo.webp"
         img.alt = "Um bebê vesgo"
     } else if (idadeNum > 5 && idadeNum < 13){
@@ -12,13 +15,13 @@ function verificarIdade(){
         img.alt = "uma criança bem calma"
     }else if (idadeNum > 13 && idadeNum < 18){
         img.src = "adolecente.jpg"
-        img.alt = "revoltado"
+        img.alt = "adolecente revoltado"
     }else if (idadeNum > 17 && idadeNum < 66){
         img.src = "adulto.jpg"
-        img.alt = "vai trabaia"
+        img.alt = "adulto"
     }else if (idadeNum > 65 && idadeNum < 96){
         img.src = "velho.webp"
-        img.alt = "discansa né, que o homem não é de ferro"
+        img.alt = "homem velho"
     }else{
         img.src = "morto.png"
         img.alt = "sei la"

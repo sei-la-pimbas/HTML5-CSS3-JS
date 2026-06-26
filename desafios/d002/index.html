@@ -6,15 +6,50 @@
     <title>Document</title>
 
     <style>
+        .placeholder {
+            width: 300px;
+            padding: 70px;
+            margin-left: 35%;
+            margin-top: 7%;
+            border-radius: 20px;
+        }
+
         #imgPlace{
             height: 300px;
+            width: 300px;
+            margin-top: 5px;
+            border-radius: 1000px;
+        }
+
+        h1{
+            text-align: center;
+            background-color: lightsteelblue;
+            font-size: 70px;
+        }
+
+        p{
+            font-size: 23px;
+        }
+
+        body{
+            background-color: lightblue;
+        }
+
+        div{
+            background-color: lightsteelblue;
+        }
+
+        button{
+            color: midnightblue;
+            background-color: skyblue;
         }
     </style>
 </head>
 <body>
     
     <div class="placeholder">
-        <h1>genio</h1>
+        <h1>Genio</h1>
+        <p>Coloque uma idade:</p>
         <input type="number" id = "idade" placeholder="digite uma idade: ">
         <button onclick="verificarIdade()"> Verificar</button>
         <img id="imgPlace" src="" alt="">
