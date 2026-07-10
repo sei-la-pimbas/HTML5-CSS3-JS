@@ -1,0 +1,55 @@
+@charset "UTF-8"; /* <-- regra de acentuação* */
+
+@import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
+
+:root {
+    --cor-background: #283f95;
+    --cor-titulo:#242231;
+    --cor-game:#08880e;
+    --cor-borda: #774104;
+    --fonte: Yuyu, sans-serif;
+}
+
+body {
+    background: var(--cor-background);
+}
+
+.gameConteiner {
+    width: 600px;
+    height: 600px;
+    background-color: var(--cor-game);
+    border-radius: 20px;
+    border: 8px solid var(--cor-borda);
+    position: relative;
+    margin: auto;
+}
+
+.menuGame {
+    position: absolute;
+    width: 200px;
+    padding: 10px;
+    top: 39%;
+    left: 33%;
+    z-index: 10;
+    background-color: darkseagreen;
+    text-align: center;
+    border-radius: 25px;
+}
+
+h1{
+    font-family: var(--fonte);
+    color: var(--cor-titulo);   
+}
+
+#btn-start {
+    background-color:rgb(103, 184, 163) ;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+canvas {
+    display: none;
+    background-color: transparent;
+}
